@@ -4,7 +4,7 @@ print(r"   version: LeEtCoBrA")
 print()
 print(r"#########################")
 print(r"#      ___________      #")
-print(r"#     /|||||||||||\     #")
+print(r"#    /||||||||||||\     #")
 print(r"#   /|||* |||| *|||\    #")
 print(r"#  ||||||||||||||||||   #")
 print(r"#  \||||||||||||||||/   #")
@@ -80,6 +80,8 @@ elif(type==2):
     h = g.replace("8", "q")
     i = h.replace("9", "p")
     j = i.replace("0", "o")
+
+    print("The text is: "+j)
 
 elif(type==3):
     print("Instructions:-")
